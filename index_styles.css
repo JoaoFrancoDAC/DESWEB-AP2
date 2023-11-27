@@ -1,7 +1,6 @@
 body {
-    background-image: /botafogo.jpg;
-    background-size: 1;
-    background-position: center;
+    background-image: url('https://media.supervasco.com/uploads/2021/1/esg0nktxeaaiedj.jpg');
+    background-position: center center;
     display: block;
     justify-content: initial;
     align-items: initial;
