@@ -1,4 +1,4 @@
-/* Estilos para o layout da página */
+
 body {
     display: flex;
     flex-direction: column;
@@ -7,8 +7,8 @@ body {
     height: 100vh;
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #000; /* Fundo preto */
-    color: white; /* Texto branco */
+    background-color: #000; 
+    color: white; 
 }
 
 #dados-atleta {
@@ -32,7 +32,7 @@ body {
     margin-top: 20px;
 }
 
-/* Estilos para o botão Voltar */
+
 .buttons button {
     padding: 10px 20px;
     background-color: #007bff;

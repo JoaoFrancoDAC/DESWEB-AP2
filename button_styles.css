@@ -4,11 +4,11 @@
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #c4b26a; /* Cor de fundo opcional */
-    padding: 8px 0; /* Espaçamento interno opcional */
-    z-index: 1000; /* Garante que os botões fiquem sobre o conteúdo */
+    background-color: #c4b26a; 
+    padding: 8px 0; 
+    z-index: 1000; 
 }
 
 .buttons button {
-    margin: 1px; /* Espaçamento entre os botões */
+    margin: 1px; 
 }

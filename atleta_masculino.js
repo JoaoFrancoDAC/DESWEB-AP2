@@ -8,10 +8,10 @@ async function fetchData() {
       
         const data = await response.json();
       
-        // Mapeando os resultados para exibição na página
+        
         const resultsDiv = document.getElementById('results');
         data.forEach(item => {
-            // Criar uma div para cada item
+            
             const playerDiv = document.createElement('div');
             playerDiv.classList.add('playerInfos');
 
@@ -34,7 +34,7 @@ async function fetchData() {
                 window.location.href = `detalhes.html?atleta-id=${encodeURIComponent(item.id)}`;
             });
             playerDiv.appendChild(detailsButton);
-            
+
         
 
             resultsDiv.appendChild(playerDiv);

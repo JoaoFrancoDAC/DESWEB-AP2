@@ -1,7 +1,7 @@
 body {
     
-    background-color: #000; /* Fundo preto */
-    color: rgb(208, 254, 4); /* Texto branco */
+    background-color: #000; 
+    color: rgb(208, 254, 4); 
 }
 
 
@@ -10,7 +10,7 @@ body {
     display: flex;
     top: 0;
     flex-wrap: wrap;
-    justify-content: space-between; /* Distribui os elementos uniformemente */
+    justify-content: space-between; 
 }
 
 #results > div {
@@ -18,9 +18,9 @@ body {
     place-items: center;
     text-align: center;
     margin-top: 47px ;
-    flex: 0 1 calc(25% - 100px); /* Cada elemento ocupa 25% da largura da linha, com espaçamento */
-    margin-bottom: px; /* Espaço entre as linhas (opcional) */
-    box-sizing: border-box; /* Inclui a margem no cálculo do tamanho */
+    flex: 0 1 calc(25% - 100px); 
+    margin-bottom: px; 
+    box-sizing: border-box; 
 }
 
 #results img {
@@ -28,7 +28,7 @@ body {
     height: auto;
     max-width: 100%;
     display: block;
-    margin-bottom: 10px; /* Espaço entre a imagem e o parágrafo (opcional) */
+    margin-bottom: 10px; 
 }
 
 @media (max-width: 768px) {
