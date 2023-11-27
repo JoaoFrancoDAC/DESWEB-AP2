@@ -1,52 +1,101 @@
-body {
-    
-    background-color: #000; 
-    color: rgb(208, 254, 4); 
-}
-
-
-
-#results {
-    display: flex;
-    top: 0;
-    flex-wrap: wrap;
-    justify-content: space-between; 
-}
-
-#results > div {
-    display: grid;
-    place-items: center;
-    text-align: center;
-    margin-top: 47px ;
-    flex: 0 1 calc(25% - 100px); 
-    margin-bottom: px; 
-    box-sizing: border-box; 
-}
-
-#results img {
-    width: 80%;
-    height: auto;
-    max-width: 100%;
-    display: block;
-    margin-bottom: 10px; 
-}
-
 @media (max-width: 768px) {
-    .results {
-        grid-template-columns: 1fr;
+
+    body {
+    
+        background-color: #000; 
+        color: rgb(208, 254, 4); 
+    }
+    
+    #results {
+        display: flex;
+        top: 0;
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
+    
+    #results > div {
+        display: grid;
+        place-items: center;
+        text-align: center;
+        margin-top: 47px ;
+        flex: 0 1 calc(100% - 100px);  
+        box-sizing: border-box; 
+    }
+    
+    #results img {
+        height: 100%;
+        max-width: auto;
+        display: block;
+        margin-bottom: 10px; 
     }
 }
+
 
 @media (min-width: 769px) and (max-width: 1024px) {
-    .results {
-        grid-template-columns: repeat(2, 1fr);
+
+    body {
+    
+        background-color: #000; 
+        color: rgb(208, 254, 4); 
+    }
+
+    #results {
+        display: flex;
+        top: 0;
+        flex-wrap: wrap;
+        justify-content: center; 
+    }
+    
+    #results > div {
+        display: grid;
+        place-items: center;
+        text-align: center;
+        margin-top: 47px ;
+        flex: 0 1 calc(50% - 100px);  
+        box-sizing: border-box; 
+    }
+    
+    #results img {
+        width: 80%;
+        height: auto;
+        max-width: 100%;
+        display: block;
+        margin-bottom: 10px; 
     }
 }
 
+
 @media (min-width: 1025px) {
-    .results{
-        grid-template-columns: repeat(4, 1fr);
+
+    body {
+    
+        background-color: #000; 
+        color: rgb(208, 254, 4);
+        text-align: center; /* Para centralizar o texto */ 
+    }
+
+    #results {
         max-width: 1200px;
         margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+        place-items: center;
+        justify-content: center; 
+    }
+    
+    #results > div {
+        display: grid;
+        place-items: center;
+        text-align:center;
+        margin-top: 40px ;
+        width: calc(29% - 80px);  
+        box-sizing: border-box;
+    }
+    
+    #results img {
+        width: 80%;
+        height: auto;
+        max-width: 100%;
+        
     }
 }
