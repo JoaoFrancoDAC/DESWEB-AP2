@@ -1,5 +1,5 @@
 body {
-    background-image: url(/botafogo.jpg);
+    background-image: /botafogo.jpg;
     background-size: 1;
     background-position: center;
     display: block;
