@@ -1,0 +1,38 @@
+body {
+    background-image: url(/botafogo.jpg);
+    background-size: 1;
+    background-position: center;
+    display: block;
+    justify-content: initial;
+    align-items: initial;
+    height: 100vh;
+    margin: 0;
+  }
+
+
+#formulario {
+    text-align: center;  
+ 
+}
+  
+#Texto_maior {
+    font-family: sans-serif;
+    font-weight: normal;
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 0px;
+}
+
+#Texto_menor {
+    margin-top: 0px;
+    font-family: sans-serif;
+    font-weight: normal;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 0px;
+}
+
+.box-login { 
+    background-color: black; 
+    color: beige;
+}

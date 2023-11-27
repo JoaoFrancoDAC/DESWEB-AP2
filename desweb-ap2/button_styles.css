@@ -1,0 +1,14 @@
+.buttons {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #c4b26a; /* Cor de fundo opcional */
+    padding: 8px 0; /* Espaçamento interno opcional */
+    z-index: 1000; /* Garante que os botões fiquem sobre o conteúdo */
+}
+
+.buttons button {
+    margin: 1px; /* Espaçamento entre os botões */
+}
